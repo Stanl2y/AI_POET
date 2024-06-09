@@ -1,5 +1,7 @@
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv() 이거말고 자동으로 api key를 가져오게 할 수 있음
+
+
 
 from langchain_openai import ChatOpenAI
 chat_model = ChatOpenAI()
